@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lab1.h"
 
 void saveEmployees(Employees arrEmployees[NUM_EMP], int c, char fileName[100])

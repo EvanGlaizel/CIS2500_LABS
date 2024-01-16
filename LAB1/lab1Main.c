@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "lab1.h"
-#include <string.h>
 
-int main()
+int main(int argc, char * argv[])
 {
-    /*int employeesLoaded;
+    
+
+    int employeesLoaded;
 
     Employees employees[NUM_EMP];
     Employees employees2[NUM_EMP];
@@ -35,7 +35,7 @@ int main()
     saveEmployees(employees, 1, "employees.txt");
     employeesLoaded = loadEmployees(employees2, "employees.txt");
 
-    printf("%d", employeesLoaded);
+    //printf("%d", employeesLoaded);
 
     for (int i = 0; i < 3; i++)
     {
@@ -47,5 +47,12 @@ int main()
         {
             printf("%s %s\n", employees[i].dependents[j], employees2[i].dependents[j]);
         }
-    }*/
+    }
+
+    printf("\nLAB1B\n");
+
+    printAnEmployee(employees[0]);
+
+    printf("%d\n", searchFirstName("emp2num1", employees));
+    printf("%d\n", searchFirstName("john", employees));
 }
